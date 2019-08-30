@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-areas:
+    "box1 box1 box1 box3"
+    "box2 box2 box2 box3";
+}
+
+.box1 {
+  grid-area: box1;
+  background-color: red;
+}
+
+.box2 {
+  grid-area: box2;
+  background-color: blue;
+}
+
+.bo3 {
+  grid-area: box3;
+  background-color: green;
+}
