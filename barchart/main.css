@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  height: 90vh;
+  align-items: flex-end;
+}
+
+.bar {
+  height: 35vh;
+  width: 2.5vw;
+  background: linear-gradient(
+    to bottom,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  border: 1px solid black;
+  margin: 0 0.5px;
+}
